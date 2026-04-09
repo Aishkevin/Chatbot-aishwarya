@@ -7,7 +7,7 @@ API_KEY = "your_api_key_here"   # 🔒 Replace with your real key
 KB_FILE = "Me.txt"
 
 # Configure Gemini
-genai.configure(api_key=API_KEY)
+genai.configure(api_key=AIzaSyAdAWR1QFnxkg3XRh2FRnZMOQcSNXznY4k)
 
 # Use latest model (gemini-1.5-pro or gemini-1.5-flash)
 model = genai.GenerativeModel("gemini-1.5-flash")
